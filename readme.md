@@ -31,7 +31,7 @@ a cache server both speeds up access to data and reduces demand on bandwidth and
 
 1. redis commandline
 
-        redis-cli keys *
+        redis-cli keys '*'
         redis-cli FLUSHDB
         redis-cli info stats | grep 'keyspace_*'
         
